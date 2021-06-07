@@ -26,7 +26,7 @@ export class NodeAppSimpleStarter {
 
 }
 
-export const Application = new NodeAppSimpleStarter();
+export const SimpleStarter = new NodeAppSimpleStarter();
 
 
 

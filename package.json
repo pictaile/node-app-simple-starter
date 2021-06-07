@@ -1,11 +1,11 @@
 {
   "name": "node-app-simple-starter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepare" : "npm run build:webpack",
+    "prepare": "npm run build:webpack",
     "build:tsc": "tsc",
     "build:webpack": "webpack --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,9 @@
   "keywords": [],
   "author": "Kostiantyn Ochotnyk",
   "license": "ISC",
-  "files": ["dist/**/*"],
+  "files": [
+    "dist/**/*"
+  ],
   "devDependencies": {
     "ts-loader": "^9.2.2",
     "ts-node": "9.1.1",
