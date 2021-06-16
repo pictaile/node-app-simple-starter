@@ -1,4 +1,4 @@
-import {Application} from "./bootstrap/node-app-simple-starter";
+import {NodeAppSimpleStarter, Application} from "./bootstrap/node-app-simple-starter";
 import {Container} from "./container/container";
 import {route} from "./decorators/router.decorator";
 import {TYPES_ROUTE_ENUM} from "./enums/api-method.enum";
@@ -9,4 +9,4 @@ import {RouteConfigProps, RouteTypesInterface} from "./interfaces/route-config-p
 import {OnRunInterface} from "./interfaces/on-run.interface";
 
 
-export {Application, Container, route, TYPES_ROUTE_ENUM, METHOD, BaseComponentInterface, BaseModuleInterface, RouteConfigProps, OnRunInterface, RouteTypesInterface };
+export {Application, NodeAppSimpleStarter, Container, route, TYPES_ROUTE_ENUM, METHOD, BaseComponentInterface, BaseModuleInterface, RouteConfigProps, OnRunInterface, RouteTypesInterface };
