@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import {Application} from "../bootstrap/node-app-simple-starter";
-import {RouteConfigProps, RouteTypesInterface} from "../interfaces/route-config-props.interfface";
+import {RouteConfigProps} from "../interfaces/route-config-props.interfface";
 import {TYPES_ROUTE_ENUM} from "../enums/api-method.enum";
 
 const types: any = {

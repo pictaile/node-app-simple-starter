@@ -5,7 +5,9 @@ export class NodeAppSimpleStarter {
     public app: any;
     public httpServer: any;
     public io!: Server;
+    public connection!: any;
     public port!: number;
+    public appRoot!: string;
 
 
     public startApp(module: BaseModuleInterface) {
